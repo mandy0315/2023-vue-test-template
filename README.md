@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# vue-test-template
+> 練習建 cypress 元件測試與端到端測試
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 專案技術
 
-## Recommended IDE Setup
+- Vue ^3.2.45
+- Vite ^4.1.0
+- Typescript ^12.8.1
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 專案安裝與執行
+
+```bash
+# 安裝套件
+pnpm install
+
+# 執行開發環境
+pnpm dev
+
+# 端到端測試
+pnpm cy:e2e
+
+# 元件測試
+pnpm cy:component
+```

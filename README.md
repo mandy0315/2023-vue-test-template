@@ -22,3 +22,6 @@ pnpm cy:e2e
 # 元件測試
 pnpm cy:component
 ```
+
+## 相關資料
+- [cypress 文件](https://docs.cypress.io/guides/overview/why-cypress)

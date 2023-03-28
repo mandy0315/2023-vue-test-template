@@ -1,5 +1,5 @@
 {
-  "name": "vue_test_cypress",
+  "name": "vue-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "cy:e2e": "cypress open --e2e"
+    "cy:e2e": "cypress open --e2e",
+    "cy:component": "cypress open --component"
   },
   "dependencies": {
     "vue": "^3.2.45"

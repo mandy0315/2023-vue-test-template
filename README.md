@@ -1,4 +1,4 @@
-# vue-test-template
+# test-cypress
 > 練習建 cypress 元件測試與端到端測試
 
 ## 專案技術
